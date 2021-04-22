@@ -50,7 +50,6 @@ h2:before {
   } 
   
   .experience, .project {
-    width: 500px;
     display: inline-block;
     font-family: Arial;
     text-align: center;
@@ -64,6 +63,11 @@ h2:before {
 
 p {
     margin: 1px;
+}
+
+.description, .info {
+  margin: 10px;
+  padding: 5px;
 }
 
 .skill {
