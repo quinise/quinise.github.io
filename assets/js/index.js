@@ -43,7 +43,7 @@ $(window).on('load', function() {
 
     // Display experienceInfo
     for (i = 0; i < projectsInfo.length; i++) {
-        $('<div class="experience col-lg-2 col-md-4 col-sm-6 col-6" />').html("<p class='info'>" + "<b>" + experienceInfo[i].name + " | " + experienceInfo[i].company + " | " + experienceInfo[i].location + " | " + experienceInfo[i].title + "</b>" + "</p>" + "<br />" + "<p>" + experienceInfo[i].dateStarted + " - " + experienceInfo[i].dateEnded + "</p>" + "<br />" + "<p class='description'>" + experienceInfo[i].description + "</p>").appendTo('#experience-data-container');
+        $('<div class="experience" />').html("<p class='info'>" + "<b>" + experienceInfo[i].name + " | " + experienceInfo[i].company + " | " + experienceInfo[i].location + " | " + experienceInfo[i].title + "</b>" + "</p>" + "<br />" + "<p>" + experienceInfo[i].dateStarted + " - " + experienceInfo[i].dateEnded + "</p>" + "<br />" + "<p class='description'>" + experienceInfo[i].description + "</p>").appendTo('#experience-data-container');
     }
 
     // Display projectsInfo
