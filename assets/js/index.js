@@ -31,7 +31,7 @@ dateEnded: "April 2015",
 description: "I structured and created a SQL database filled with nonce data, wrote a scoreboard, and submission checker in C. I used Chef to automate tasks on an Amazon Web Services EC2 Linux machine. I Collaborated carefully and clearly with a teammate to set up a Windows Server 2008 system (with AWS-EC2) for the vulnerability protecting (Blue) team. I invented 60% of the vulnerabilities for the system attacking (Red) team to exploit in a website that connected to the database mentioned above."
 }]
 
-var skillsData = ['Java', 'MySQL', 'PostgresSQL', 'HTML', 'CSS', 'LATEX', 'Python (Django)', 'JavaScript', 'node.js', 'web3.js API', 'Solidity', 'Amazon Web Services (EC2/VPC)', 'Vim', 'Git', 'VMware', 'Sketch', 'Windows', 'macOS', 'Android', 'iOS'];
+var skillsData = ['Java', 'Go', 'Swift', 'MySQL', 'PostgresSQL', 'HTML', 'CSS', 'LATEX', 'Python (Django)', 'JavaScript', 'node.js', 'web3.js API', 'Solidity', 'Amazon Web Services (EC2/VPC)', 'Vim', 'Git', 'VMware', 'Sketch', 'Windows', 'macOS', 'Android', 'iOS'];
 
 
 
