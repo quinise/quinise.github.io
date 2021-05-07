@@ -12,12 +12,6 @@ func main() {
 	router.Static("/assets", "./assets")
 	router.LoadHTMLGlob("templates/*")
 
-	// router.NoRoute(func(c *gin.Context) {
-	// 	c.HTML(http.StatusNotFound, "not_found.html", gin.H{
-	// 		"title": "Page not found",
-	// 	})
-	// })
-
 	router.GET("/", func(c *gin.Context) {
 		fmt.Println("in index")
 
