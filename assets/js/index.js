@@ -23,6 +23,14 @@ description: "I co-facilitated the project’s focus group, for the meetings I c
 }]
 
 var projectsInfo = [{
+name: "My Gem Tarot",
+location: "Seattle, WA",
+title: "Software Developer",
+dateStarted: "May 2021",
+dateEnded: "May 2021",
+description: "I originated, mocked-up, and programmed a Swift 5.3 iOS application. I made an asynchronous API call to the’ Tarot Card Meanings REST API’. I developed and styled each view and created models for data. I implemented CoreData to save data persistently and perform CrUD operations on each reading. I bound data from models to views using property wrappers and developed views to navigate though tarot card and gem information by card suit."
+}, 
+{
 name: "Cyber Defense Game",
 location: "Olympia, WA",
 title: "Engineer",
