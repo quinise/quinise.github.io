@@ -20,6 +20,15 @@ title: "Intern",
 dateStarted: "June 2019",
 dateEnded: "March 2021",
 description: "I co-facilitated the project’s focus group, for the meetings I created questions, study forms, and took notes. I Created a wireframe for the project with Sketch and consulted with client multiple times. I created and updated a Postgress database to store user information, created models for that database. I implemented both Buffalo and Gin frameworks, I used MySQL with Gin. I developed a ERC-20 token buying site using Solidity, JSON, JavaScript, and I also used Truffle-Contracts. I made API calls to web3.js to make transactions on a blockchain. I tested the app using Ganache, Metamask, Geth, and the Ethereum test networks Rinkeby and Robsten."
+},
+{
+    name: "Cadasta",
+    company: "Spatial Development International",
+    location: "Seattle, WA",
+    title: "QA Specialist",
+    dateStarted: "April 2015",
+    dateEnded: "September 2016",
+    description: "I Contributed diversity of thought to find and report key issues to GitHub; my testing saved the team of 9, 27+ hours of work. I created 18+ efficient and thorough daily used automated tests with Ghost Inspector for 5 user types, 100+ map layers and configurations, 10+ page functionalities. I cleaned data and updated databases to include new data using SQL for a large scaled database. I worked on an internship level web app using Angular JS, HTML, and CSS. I helped release Cadasta, a large web application that enables the Red Cross and international government agencies to consolidate data and use mapping to help farmers and people living in poverty around the world."
 }]
 
 var projectsInfo = [{
