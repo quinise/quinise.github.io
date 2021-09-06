@@ -72,6 +72,4 @@ $(window).on('load', function() {
     for (i = 0; i < skillsData.length; i++) {
         $('<div class="skill" />').html("<b>" + skillsData[i] + "</b>").appendTo('#skills-data-container');
     }
-
-
 });
