@@ -1,0 +1,65 @@
+.container {
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+#bio {
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    display: inline;
+}
+
+.image {
+    float: left;
+    margin-right: 5%;
+    /* flex-basis: 40%; */
+}
+
+.bio-text {
+    padding: 5%;
+    margin-left: 5%;
+}
+
+h6 {
+    color: #638CDB;
+}
+
+#links {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    margin: -50px 0 0 -50px;
+}
+
+.logo {
+    width: 75px;
+    margin: 10px;
+}
+
+#portfolio {
+    display: block;
+    margin: 5%;
+}
+
+.hr {    
+    width: 20%;
+    margin: 0 auto;
+    border: 2px solid #638CDB;
+    margin-bottom: 5%;
+}
+
+#education, #experience, #projects {
+    text-align: center;
+    margin: 1%;
+    float: right;
+    width: 250px;
+    height: 250px;
+}
