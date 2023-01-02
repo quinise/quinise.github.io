@@ -1,6 +1,5 @@
 .container {
     width: 100%;
-    /* display: flex; */
     align-items: center;
     justify-content: center;
 }
@@ -12,18 +11,14 @@
     position: relative;
 }
 
-img {
-    max-width: 100%;
-    display: inline;
-}
-
 .image {
     float: left;
     margin-right: 5%;
-    /* flex-basis: 40%; */
+    margin-bottom: 5%;
 }
 
 .bio-text {
+    display: inline;
     padding: 5%;
     margin-left: 5%;
 }
@@ -33,20 +28,21 @@ h6 {
 }
 
 #links {
-    position: absolute;
-    top: 80%;
-    left: 65%;
-    margin: -50px 0 0 -50px;
+    margin: 0 auto;
+    width: 400px;
 }
 
-.logo {
-    width: 75px;
-    margin: 10px;
+/* .githubLogo {
+    margin-right: 1%;
 }
+
+.linkedinLogo {
+    margin-left: 1%;
+} */
 
 #portfolio {
-    display: block;
-    margin: 5%;
+    /* margin: 1%; */
+    width: 100%;
 }
 
 .hr {    
@@ -58,8 +54,9 @@ h6 {
 
 #education, #experience, #projects {
     text-align: center;
-    margin: 1%;
+    margin: 2%;
+    margin-top: 5%;
     float: right;
-    width: 250px;
+    width: 25%;
     height: 250px;
 }
