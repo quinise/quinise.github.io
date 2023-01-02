@@ -13,9 +13,9 @@
   <body>
     <div class="container">
       <div class="row">
-        <div id="bio" class="col">
+        <div id="bio" class="col-xs-6">
           <div class="image">
-            <img src="/assets/images/portfolio-image.png">
+            <img class="rounded" src="/assets/images/portfolio-image.png">
           </div>
           <div class="bio-text">
             <h3>Let’s create something powerful together</h3>
@@ -25,20 +25,24 @@
               planning and organization to build great projects for 
               clients. </p>
           </div>
-          <div id="links">
-            <a href="https://github.com/quinise"><img class="logo" src="/assets/images/github-mark.png"></a>
-            <a href="https://www.linkedin.com/in/quinise/"><img class="logo" src="/assets/images/LI-In-Bug.png"></a>
+          <div id="links" class="row">
+            <div class="githubLogo col-md-6 col-xs-12">
+              <a href="https://github.com/quinise"><img src="/assets/images/github-mark.png"></a>
+            </div>
+            <div class="linkedinLogo col-md-6 col-xs-12">
+              <a href="https://www.linkedin.com/in/quinise/"><img src="/assets/images/LI-In-Bug.png"></a>
+            </div>
           </div>
         </div>
       </div>
-      <div id="portfolio">
-        <div id="experience">
+      <div id="portfolio" class="row">
+        <div id="experience" class="col-md-4 col-xs-4">
           <h3>Experience</h3>
           <hr class="mx-auto hr" />
           <a href="https://github.com/quinise/Accord365_gin_development">Acord365</a> | <b>Intern</b></h2>
           <p>Accord365 allowed a user to check how much Ether they have - via wallet. It let users complete various forms that submit transactions to the Ethereum blockchain. It displayed information about previous transactions when supplied with a transaction hash. It was written in Go (Gin framework), JavaScript, web3.js, MySQL, and HTML.</p><br>
         </div>
-        <div id="projects">
+        <div id="projects" class="col-md-4 col-xs-4">
           <h3>Projects</h3>
           <hr class="mx-auto hr" />
           <a href="https://github.com/quinise/SeshatOrchidProject">Seshat Orchid Project</a> | <b>Developer</b>
@@ -48,7 +52,7 @@
           <p> I originated, mocked-up, and programmed a Swift 5.3 iOS application. I made an asynchronous API call to the’ Tarot Card Meanings REST API’. I developed and styled each view and created models for data. I implemented CoreData to save data persistently and perform CrUD operations on each reading. I bound data from models to views using property wrappers and developed views to navigate though tarot card and gem information by card suit.</p><br>
 
         </div>
-        <div id="education">
+        <div id="education" class="col-md-4 col-xs-4">
           <h3>Education</h3>
           <hr class="mx-auto hr" />
           <span><b>The Evergreen State College</b></span>
