@@ -1,3 +1,11 @@
+/* Restrict GIF size for My Gem Tarot project */
+img[src*="tarot-findCard.gif"],
+img[src*="tarot-edit.gif"] {
+  max-width: 260px;
+  max-height: 160px;
+  width: 100%;
+  height: auto;
+}
 .footer-icon {
   width: 22px;
   height: 22px;
