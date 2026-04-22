@@ -40,7 +40,8 @@ h1, h2 {
 header {
   padding: 4rem 1rem 2rem 1rem;
   text-align: center;
-  background: linear-gradient(90deg, #1a237e 0%, #1976d2 100%);
+  background: linear-gradient(90deg, #e3f2fd 0%, #90caf9 100%);
+  color: #1a237e;
   color: #fff;
 }
 
@@ -141,6 +142,13 @@ button:focus, input:focus, textarea:focus, select:focus {
 a:focus, a:active {
   outline: none;
   box-shadow: none;
+}
+/* Remove underline from all links by default, underline only on hover/focus */
+a, a:visited {
+  text-decoration: none !important;
+}
+a:hover, a:focus {
+  text-decoration: underline !important;
 }
 
 /* Modern card style for content blocks */

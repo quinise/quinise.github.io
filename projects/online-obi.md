@@ -2,7 +2,7 @@
 title: Online Obi
 layout: project-page
 role: Web Developer
-dates: September 2023
+dates: September 2023 - December 2025
 stack: React, HTML, TailwindCSS, Firebase
 permalink: /projects/online-obi/
 ---
