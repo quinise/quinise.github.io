@@ -5,7 +5,7 @@ layout: default
 
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main    tabindex="-1">
+<main tabindex="-1">
   <section class="grid">
     <article class="card">
       <h2><a href="/projects/">Projects</a></h2>
