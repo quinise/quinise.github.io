@@ -4,7 +4,7 @@ layout: default
 permalink: /projects/
 ---
 
-# Projects
+# <h1 class="centered-title">Projects</h1>
 
 - **[Schedule Hub](/projects/schedule-hub/):** Full-stack Angular + Spring Boot booking system with conflict-detection logic and calendar/list views.
 - **[Online Obi](/projects/online-obi/):** React single-page app for delivering resources; deployed on Firebase.
