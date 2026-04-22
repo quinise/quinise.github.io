@@ -47,7 +47,7 @@ permalink: /projects/online-obi/
 </figure>
 
 <figure>
-  <img src="/assets/images/obi-cast-recording.mov" alt="Online Obi app demo – user casting readings" class="project-screenshot">
+  <img src="/assets/images/obi-cast-recording.gif" alt="Online Obi app demo – user casting readings" class="project-screenshot">
   <figcaption>Online Obi app demo – user casting readings</figcaption>
 </figure>
 
