@@ -3,34 +3,50 @@ title: Quinise Ercolano
 layout: default
 ---
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="/assets/css/custom.css">
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
-    header { padding: 2rem 1rem; text-align: center; }
-    main { max-width: 880px; margin: 0 auto; padding: 1rem; }
-    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); }
-    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 1rem; }
-    .card a { text-decoration: none; }
-    footer { text-align: center; padding: 2rem 1rem; color: #777; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Portfolio</h1>
-    <nav>
-      <a href="/projects/">Projects</a>
-      <a href="/experience/">Experience</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="grid">
-      <article class="card"><h3><a href="/projects/">Projects</a></h3><p>Transferable coding skills</p></article>
-      <article class="card"><h3><a href="/experience/">Professional Experience</a></h3><p>Programming and development roles</p></article>
-    </section>
-  </main>
-</body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header>
+  <h1>Portfolio</h1>
+  <nav aria-label="Main navigation">
+    <a href="/projects/">Projects</a>
+    <a href="/experience/">Experience</a>
+  </nav>
+</header>
+
+<main id="main-content" tabindex="-1">
+  <section class="grid">
+    <article class="card">
+      <h2><a href="/projects/">Projects</a></h2>
+      <p>Transferable coding skills</p>
+    </article>
+    <article class="card">
+      <h2><a href="/experience/">Professional Experience</a></h2>
+      <p>Programming and development roles</p>
+    </article>
+  </section>
+</main>
+
+<style>
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 1000;
+  background: #ffd600;
+  color: #1a237e;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  outline: 3px solid #1a237e;
+}
+</style>
