@@ -105,9 +105,7 @@ a, a:visited, a:active {
 
 
 img.project-screenshot {
-  max-width: 420px;
-  max-height: 260px;
-  width: 100%;
+  width: 320px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(26,35,126,0.12);
