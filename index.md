@@ -5,14 +5,6 @@ layout: default
 
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<header>
-  <h1>Portfolio</h1>
-  <nav aria-label="Main navigation">
-    <a href="/projects/">Projects</a>
-    <a href="/experience/">Experience</a>
-  </nav>
-</header>
-
 <main id="main-content" tabindex="-1">
   <section class="grid">
     <article class="card">

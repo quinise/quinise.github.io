@@ -2,7 +2,7 @@
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   margin: 0;
-  background: #f8fafc;
+  background: #f8f4e3;
   color: #222831;
   font-size: 1.125rem;
   line-height: 1.7;
@@ -12,20 +12,20 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  color: #22211f;
   letter-spacing: 0.02em;
   color: #1a237e;
 }
 
 h1, h2 {
-  margin-top: 2rem;
+  background: linear-gradient(90deg, #d4cdc3 0%, #a2a392 100%);
   margin-bottom: 1rem;
 }
 
 
 header {
   padding: 4rem 1rem 2rem 1rem;
-  text-align: center;
+  color: #22211f !important;
   background: linear-gradient(90deg, #1a237e 0%, #1976d2 100%);
   color: #fff;
   border-bottom: 4px solid #ffd600;
@@ -35,8 +35,8 @@ header {
 
 .page-header a,
 .page-header a:visited {
-  color: #ffd600 !important;
-  text-decoration: none;
+  color: #a2a392 !important;
+  outline: none;
   font-weight: 600;
   outline: none;
   transition: color 0.2s;
@@ -44,7 +44,7 @@ header {
 
 .page-header a:hover,
 .page-header a:focus {
-  text-decoration: underline;
+  background: #d5d0cd;
   color: #fff !important;
   outline: 3px solid #ffd600;
   outline-offset: 2px;
@@ -59,8 +59,8 @@ img.project-screenshot {
   margin: 1rem 0;
 }
 
-
-figure {
+  color: #22211f;
+  background: #a2a392;
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -69,7 +69,7 @@ figure img {
   max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+  color: #9a998c;
 
 
 figcaption {
@@ -77,9 +77,24 @@ figcaption {
   color: #374151;
   margin-top: 0.5rem;
   font-style: italic;
+  box-shadow: 0 2px 8px rgba(154,153,140,0.12);
+
+
+
+.site-footer {
+html, body {
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(154,153,140,0.08);
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-
+.main-content {
+  flex: 1 0 auto;
+}
 
 .site-footer {
   width: 100vw;
@@ -93,6 +108,7 @@ figcaption {
   border-top: 2px solid #1976d2;
   font-size: 1rem;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 /* Focus styles for all interactive elements */
