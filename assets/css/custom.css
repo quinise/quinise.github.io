@@ -1,20 +1,11 @@
-/* Restrict GIF size for My Gem Tarot project */
-img[src*="tarot-findCard.gif"],
-img[src*="tarot-edit.gif"] {
-  max-width: 320px;
-  max-height: 320px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* No special GIF rules: use .project-screenshot for natural aspect ratio */
 .footer-icon {
   width: 20px;
   height: 20px;
   object-fit: contain;
   vertical-align: middle;
   margin: 0 0.18em;
+  display: inline-block;
 }
 
 .footer-icons-row {
