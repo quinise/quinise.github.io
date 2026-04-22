@@ -1,5 +1,5 @@
 ---
-title: OIDSI-PNW (Vue + Vite)
+title: OIDSI-PNW Community Home
 layout: experience-page
 role: Web Developer
 dates: October 2022 – March 2026
@@ -54,5 +54,5 @@ The OIDSI-PNW site is a single-page application built with Vue and Vite. It was 
 
 ## Links
 
-- **Live:** [https://www.oidsi-pnw.com](https://www.oidsi-pnw.com)
-- **Repo:** [https://github.com/quinise/oidis-pnw](https://github.com/quinise/oidis-pnw)
+- [Live Site](https://www.oidsi-pnw.com)
+- [Repo](https://github.com/quinise/oidis-pnw)

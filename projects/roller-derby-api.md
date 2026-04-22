@@ -26,5 +26,5 @@ The Roller Derby API is a REST-based service providing structured access to roll
 
 ## Links
 
-- **Live:** [https://rollerderbyapi.web.app/#/home](https://rollerderbyapi.web.app/#/home)
-- **Repo:** [https://github.com/quinise/rollerderbyapi](https://github.com/quinise/rollerderbyapi)
+- [Live Site](https://rollerderbyapi.web.app/#/home)
+- [Repo](https://github.com/quinise/rollerderbyapi)

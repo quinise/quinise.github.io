@@ -47,11 +47,11 @@ permalink: /projects/online-obi/
 </figure>
 
 <figure>
-  <img src="/assets/images/obi-cast-recording.mov" alt="Schedule Hub app landing page" class="project-screenshot">
+  <img src="/assets/images/obi-cast-recording.mov" alt="Online Obi app demo – user casting readings" class="project-screenshot">
   <figcaption>Online Obi app demo – user casting readings</figcaption>
 </figure>
 
 ## Links
 
-- **Live:** [https://obi-project-397801.web.app/](https://obi-project-397801.web.app/)
-- **Repo:** [https://github.com/quinise/OnlineObi](https://github.com/quinise/OnlineObi)
+- [Live Site](https://obi-project-397801.web.app/)
+- [Repo](https://github.com/quinise/OnlineObi)

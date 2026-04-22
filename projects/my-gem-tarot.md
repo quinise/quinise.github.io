@@ -36,4 +36,4 @@ An original iOS application built in Swift, My Gem Tarot integrates tarot card r
 </figure>
 
 ## Links
-- **Repo:** [https://github.com/quinise/MyGemTarot](https://github.com/quinise/MyGemTarot)
+- [Repo](https://github.com/quinise/MyGemTarot)

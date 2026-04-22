@@ -50,4 +50,4 @@ As an engineering apprentice on the Accord365 project, I headed both backend and
 
 ## Links
 
-- **Repo:** [https://github.com/quinise/Accord365_gin_development](https://github.com/quinise/Accord365_gin_development)
+- [Repo](https://github.com/quinise/Accord365_gin_development)
