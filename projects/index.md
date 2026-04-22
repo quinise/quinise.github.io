@@ -4,9 +4,24 @@ layout: default
 permalink: /projects/
 ---
 
-# <h1 class="centered-title">Projects</h1>
-
-- **[Schedule Hub](/projects/schedule-hub/):** Full-stack Angular + Spring Boot booking system with conflict-detection logic and calendar/list views.
-- **[Online Obi](/projects/online-obi/):** React single-page app for delivering resources; deployed on Firebase.
-- **[Roller Derby API](/projects/roller-derby-api/):** REST API with four endpoints (Structure, Official Types, Rules, Officials), built with Node.js + EJS, documented via Angular.js.
-- **[My Gem Tarot](/projects/my-gem-tarot/):** Swift iOS app consuming a Tarot REST API, with CoreData persistence, CRUD operations, and custom UI.
+<main id="main-content">
+  <section>
+    <h1 class="centered-title">Projects</h1>
+    <article class="card">
+      <h2><a href="/projects/schedule-hub/">Schedule Hub</a></h2>
+      <p>Full-stack Angular + Spring Boot automated event booking platform with conflict-detection logic and calendar/list views.</p>
+    </article>
+    <article class="card">
+      <h2><a href="/projects/online-obi/">Online Obi</a></h2>
+      <p>A React, TailwindCSS, Firebase app that performs Obi divination resources</p>
+    </article>
+    <article class="card">
+      <h2><a href="/projects/roller-derby-api/">Roller Derby API</a></h2>
+      <p>A REST API with four endpoints (Structure, Official Types, Rules, Officials), built with Node.js + EJS</p>
+    </article>
+    <article class="card">
+      <h2><a href="/projects/my-gem-tarot/">My Gem Tarot</a></h2>
+      <p>A Swift iOS app that consumes the Tarot REST API; uses CoreData persistence, CRUD operations, and custom UI.</p>
+    </article>
+  </section>
+</main>
