@@ -1,14 +1,11 @@
 ---
 title: OIDSI-PNW (Vue + Vite)
-layout: default
+layout: experience-page
+role: Web Developer
+dates: October 2022 – March 2026
+stack: Vue, Vite, Bootstrap, TypeScript, Playwright (e2e), GitHub Actions, AWS S3 + CloudFront
 permalink: /experience/oidsi-pnw/
 ---
-
-# OIDSI-PNW Website
-
-**Role:** Full-stack Web Developer  
-**Dates:** October 2022 – Present
-**Stack:** Vue 3, Vite, Bootstrap 5, TypeScript, Playwright (e2e), GitHub Actions, AWS S3 + CloudFront
 
 ## Overview
 
@@ -34,6 +31,7 @@ The OIDSI-PNW site is a single-page application built with Vue and Vite. It was 
   **Solution:** Implemented SPA fallback (`index.html` copied to `404.html`) and CloudFront behavior rules.
 
 ## Screenshots
+
 <figure>
   <img src="/assets/images/oidsi-home.png" alt="OIDSI-PNW site home page" class="project-screenshot">
   <figcaption>OIDSI-PNW organization's home page</figcaption>

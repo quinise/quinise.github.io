@@ -1,18 +1,15 @@
 ---
-title: Accord365 Internship
-layout: default
+title: Accord365 Apprenticeship
+layout: experience-page
+role: Engineering Intern
+dates: June 2020 - March 2021
+stack: Go (Gin), PostgreSQL, Solidity, JavaScript, jQuery, HTML, CSS, Bootstrap, Truffle-Contracts, Web3.js, OAuth2
 permalink: /experience/internship/
 ---
 
-# Accord365 Internship
-
-**Role:** Engineering Intern  
-**Dates:** June 2020 - March 2021
-**Stack:** Go (Buffalo, Gin), PostgreSQL, MySQL, Solidity, JavaScript, jQuery, HTML, CSS, Bootstrap, Truffle-Contracts, Web3.js, OAuth2
-
 ## Overview
 
-As an engineering intern on the **Accord365** project, I contributed to both backend and frontend development, database design, blockchain integration, and client engagement. I co-facilitated the project’s focus group, created a wireframe, and worked closely with the client to refine requirements and validate progress.
+As an engineering apprentice on the Accord365 project, I headed both backend and frontend development, database design, blockchain integration, and client engagement. I co-facilitated the project’s focus groups, created a wireframe, and worked closely with the stakeholders to refine requirements and validate progress.
 
 ## Highlights
 

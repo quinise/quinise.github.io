@@ -1,14 +1,11 @@
 ---
 title: Khepra Ptah Website (Angular)
-layout: default
+layout: experience-page
+role: Web Developer
+dates: Apr 2023 – Nov 2023
+stack: Angular, TypeScript, Bootstrap, Firebase Hosting
 permalink: /experience/khepra-ptah/
 ---
-
-# Khepra Ptah’s Website
-
-**Role:** Web Developer  
-**Dates:** Apr 2023 – Nov 2023  
-**Stack:** Angular, TypeScript, Bootstrap, Firebase Hosting
 
 ## Overview
 

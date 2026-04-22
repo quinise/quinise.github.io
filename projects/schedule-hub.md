@@ -1,14 +1,11 @@
 ---
 title: Schedule Hub App
-layout: default
+layout: project-page
+role: Freelance Full-stack Developer
+dates: March 2025 - September 2025
+stack: Angular, TypeScript, Bootstrap, Spring Boot (Java), PostgreSQL
 permalink: /projects/schedule-hub/
 ---
-
-# Schedule Hub App
-
-**Role:** Full-stack Developer  
-**Dates:** March 2025 - Present
-**Stack:** Angular, TypeScript, Bootstrap, Spring Boot (Java), PostgreSQL
 
 ## Overview
 
@@ -53,5 +50,6 @@ The Schedule Hub is a booking system that integrates a full Angular frontend wit
 ## Links
 
 **Repos:**
+
 - Backend: [https://github.com/quinise/ScheduleHub-backend](https://github.com/quinise/ScheduleHub-backend)
 - Frontend: [https://github.com/quinise/ScheduleHub-frontend](https://github.com/quinise/ScheduleHub-frontend)

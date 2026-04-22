@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+  <!-- Custom overrides -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">{{ site.title }}</h1>
+    {% if site.description %}<h2 class="project-tagline">{{ site.description }}</h2>{% endif %}
+      <p class="page-links">
+        <a href="{{ '/' | relative_url }}">Home</a> •
+        <a href="{{ '/projects/' | relative_url }}">Projects</a> •
+        <a href="{{ '/experience/' | relative_url }}">Experience</a>
+      </p>
+  </header>
+
+<main id="main-content" class="main-content" role="main">
+  <section>
+    <h1 class="centered-title">{{page.title}}</h1>
+    <article class="card">
+      <p><b>Role:</b> {{page.role}}</p>
+      <p><b>Role Dates:</b> {{page.dates}}</p>
+      <p><b>Stack:</b> {{page.stack}}</p>
+    </article>
+    <article class="card">
+      <h2 class="centered-title">Overview</h2>
+      <p>{{page.overview}}</p>
+      <p>As an software development apprentice on the Accord365 project, I headed the backend and frontend development, database design, blockchain integration, and client engagement. I co-facilitated the project’s focus group, created a wireframe, and worked closely with the client to refine requirements and validate progress.</p>
+    </article>
+    <article class="card"> // What other options do I have besides a card?
+      <h2 class="centered-title">"Highlights</h2>
+      <ul>{{page.highlights}}</ul>
+    </article>
+    <article class="card">
+      <h2 class="centered-title">"Challenges & Solutions</h2>
+      <ul>{{page.challenges}}</ul>
+    </article>
+        <article class="card">
+      <h2 class="centered-title">"Project Links</h2>
+      <ul>{{page.project_links}}</ul>
+    </article>
+  </section>
+
+  <footer class="site-footer">
+    <span class="site-footer-owner"> Created by {{ site.title }}</span>
+  </footer>
+</main>

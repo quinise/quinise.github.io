@@ -1,25 +1,25 @@
 ---
 title: Online Obi
-layout: default
+layout: project-page
+role: Web Developer
+dates: September 2023
+stack: React, HTML, TailwindCSS, Firebase
 permalink: /projects/online-obi/
 ---
 
-# Online Obi
-
-**Role:** Web Developer
-**Dates:** September 2023
-**Stack:** React, JavaScript, HTML, CSS
-
 ## Overview
+
 **Online Obi** is a React-based web application designed to provide access to resources and services in a simple, intuitive interface. The app delivers content dynamically and emphasizes responsiveness and accessibility.
 
 ## Highlights
+
 - Built as a **React single-page application**.
 - Developed reusable components for modular and maintainable code.
 - Styled with modern CSS for a clean and responsive layout.
 - Integrated external content delivery to surface relevant resources.
 
 ## Technical Details
+
 - **Frontend:** React components for navigation and dynamic content.
 - **Styling:** CSS modules and responsive design.
 - **Deployment:** Hosted on Firebase with public GitHub repository.
@@ -52,5 +52,6 @@ permalink: /projects/online-obi/
 </figure>
 
 ## Links
-- **Live:** [https://obi-project-397801.web.app/](https://obi-project-397801.web.app/)  
-- **Repo:** [https://github.com/quinise/OnlineObi](https://github.com/quinise/OnlineObi)  
+
+- **Live:** [https://obi-project-397801.web.app/](https://obi-project-397801.web.app/)
+- **Repo:** [https://github.com/quinise/OnlineObi](https://github.com/quinise/OnlineObi)

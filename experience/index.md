@@ -9,7 +9,7 @@ permalink: /experience/
     <h1 class="centered-title">Experience</h1>
     <article class="card">
       <h2><a href="/experience/ComBust/">ComBust (Sports Team Administration) Application</a></h2>
-      <p>A React Web and React Native + Python app, distributed with Supabase, created to automate a roller derby league's adminisrative tasks.</p>
+      <p>A React Web and React Native + Python app, distributed with Supabase, created to automate a roller derby league's administrative tasks.</p>
     </article>
     <article class="card">
       <h2><a href="/experience/oidsi-pnw/">OIDSI-PNW Website</a></h2>
