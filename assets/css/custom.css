@@ -86,10 +86,24 @@ a, a:visited, a:active {
 
 
 img.project-screenshot {
-  max-width: 100%;
+  max-width: 420px;
+  max-height: 260px;
+  width: 100%;
+  height: auto;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(26,35,126,0.12);
-  margin: 1rem 0;
+  margin: 1rem auto;
+  display: block;
+}
+
+.main-content img,
+.main-content video {
+  max-width: 420px;
+  max-height: 260px;
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
 }
 
 
