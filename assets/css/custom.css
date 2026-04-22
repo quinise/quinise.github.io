@@ -46,6 +46,10 @@ header {
 }
 
 /* Ensure header nav links match the white text inside Cayman's banner */
+/* Ensure visited links do not change color anywhere */
+a, a:visited, a:active {
+  color: inherit !important;
+}
 
 .page-header a,
 .page-header a:visited {
