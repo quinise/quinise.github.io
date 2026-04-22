@@ -37,7 +37,6 @@ Built a responsive single-page application for Khepra Ptah, highlighting his Rei
   <figcaption>Site home page</figcaption>
 </figure>
 
-## Links
+## Repo Link
 
-- [Live Site](https://khepraptah-ifa.web.app)
 - [Repo](https://github.com/quinise/khepra-site)

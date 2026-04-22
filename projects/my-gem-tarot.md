@@ -38,6 +38,6 @@ An original iOS application built in Swift, My Gem Tarot integrates tarot card r
   <figcaption>MyGemTarot app demo – user viewing saved card notes</figcaption>
 </figure>
 
-## Links
+## Repo Link
 
 - [Repo](https://github.com/quinise/MyGemTarot)

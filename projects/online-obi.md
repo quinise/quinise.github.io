@@ -51,7 +51,7 @@ permalink: /projects/online-obi/
   <figcaption>Online Obi app demo – user casting readings</figcaption>
 </figure>
 
-## Links
+## Project Links
 
 - [Live Site](https://obi-project-397801.web.app/)
 - [Repo](https://github.com/quinise/OnlineObi)

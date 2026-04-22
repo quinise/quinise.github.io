@@ -1,5 +1,5 @@
 ---
-title: OIDSI-PNW Community Home
+title: OIDSI-PNW Community Web Home
 layout: experience-page
 role: Web Developer
 dates: October 2022 – March 2026
