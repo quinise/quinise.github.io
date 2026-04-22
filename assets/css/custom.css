@@ -80,9 +80,11 @@ figcaption {
 }
 
 
+
 .site-footer {
-  max-width: 64rem;
-  margin: 0 auto;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   padding: 1.5rem 2rem 1.5rem 2rem;
   text-align: center;
   display: block;
@@ -90,18 +92,27 @@ figcaption {
   background: #e3f2fd;
   border-top: 2px solid #1976d2;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 /* Focus styles for all interactive elements */
-a, button, input, textarea, select {
+
+/* Focus styles for all interactive elements except links */
+button, input, textarea, select {
   outline: 2px solid #ffd600;
   outline-offset: 2px;
   transition: outline 0.2s;
 }
 
-a:focus, button:focus, input:focus, textarea:focus, select:focus {
+button:focus, input:focus, textarea:focus, select:focus {
   outline: 3px solid #ffd600;
   outline-offset: 2px;
+}
+
+/* Remove outline/border from links on focus/hover, keep underline */
+a:focus, a:active {
+  outline: none;
+  box-shadow: none;
 }
 
 /* Modern card style for content blocks */

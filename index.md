@@ -3,7 +3,6 @@ title: Quinise Ercolano
 layout: default
 ---
 
-
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
 <header>
