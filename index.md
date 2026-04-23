@@ -8,12 +8,8 @@ layout: default
 <main tabindex="-1">
   <section class="grid">
     <article class="card">
-      <h2><a href="/projects/">Projects</a></h2>
-      <p>Transferable coding skills</p>
-    </article>
-    <article class="card">
-      <h2><a href="/experience/">Professional Experience</a></h2>
-      <p>Programming and development roles</p>
+      <h2 class="centered-title">Hello!</h2>
+      <p>I am Quinise</p>
     </article>
   </section>
 </main>
