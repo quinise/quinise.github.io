@@ -56,14 +56,12 @@ html, body {
 body {
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: #f6fdfe;
-  background-image: url('/assets/design/background-img.png');
-  background-size: cover;
+  background-image:
+    linear-gradient(to right, white, transparent),
+    url('/assets/design/background-img.png');
   background-position: left center;
   background-attachment: fixed;  /* Keeps image fixed during scroll (optional) */
   height: 100%;                  /* Ensures background covers full height */
-  /* Mask gradient: fades from left (opaque) to right (transparent) */
-  -webkit-mask-image: linear-gradient(to right, white, transparent);
-  mask-image: linear-gradient(to right, white, transparent);
   color: #222831;
   font-size: 1.125rem;
   line-height: 1.7;
