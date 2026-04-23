@@ -57,11 +57,12 @@ body {
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: #f6fdfe;
   background-image:
-    linear-gradient(to right, white, transparent),
+    linear-gradient(to right, transparent 25%, white 75%),
     url('/assets/design/background-img.png');
   background-position: left center;
-  background-attachment: fixed;  /* Keeps image fixed during scroll (optional) */
-  height: 100%;                  /* Ensures background covers full height */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
   color: #222831;
   font-size: 1.125rem;
   line-height: 1.7;
