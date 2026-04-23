@@ -14,13 +14,12 @@
 </head>
 <body>
   <header class="page-header" role="banner">
-    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-    {% if site.description %}<h2 class="project-tagline">{{ site.description }}</h2>{% endif %}
-      <p class="page-links">
-        <a href="{{ '/' | relative_url }}">Home</a> •
-        <a href="{{ '/projects/' | relative_url }}">Projects</a> •
-        <a href="{{ '/experience/' | relative_url }}">Experience</a>
-      </p>
+    <span class="project-name">{{ site.title | default: site.github.repository_name }}</span>
+    <nav class="page-links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/experience/' | relative_url }}">Experience</a>
+    </nav>
   </header>
 
   <main id="content" class="main-content" role="main">
