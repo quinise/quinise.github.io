@@ -59,6 +59,7 @@ body {
   background-image:
     linear-gradient(to right, transparent 25%, white 75%),
     url('/assets/design/background-img.png');
+  background-size: 600px auto;
   background-position: left center;
   background-repeat: no-repeat;
   background-attachment: fixed;
