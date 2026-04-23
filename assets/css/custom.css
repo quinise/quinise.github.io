@@ -168,7 +168,7 @@ a, a:visited, a:active {
 
 .page-header a,
 .page-header a:visited {
-  color: #ffd600 !important;
+  color: #1a237e !important;
   text-decoration: none;
   font-weight: 600;
   outline: none;
@@ -179,7 +179,7 @@ a, a:visited, a:active {
 .page-header a:focus {
   text-decoration: underline;
   color: #fff !important;
-  outline: 3px solid #ffd600;
+  outline: 3px solid #1a237e;
   outline-offset: 2px;
 }
 
@@ -241,9 +241,8 @@ body {
 }
 
 .site-footer {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  width: 100%;
+  margin: 0;
   padding: 1.5rem 2rem 1.5rem 2rem;
   text-align: center;
   display: block;
@@ -258,13 +257,13 @@ body {
 
 /* Focus styles for all interactive elements except links */
 button, input, textarea, select {
-  outline: 2px solid #ffd600;
+  outline: 2px solid #1a237e;
   outline-offset: 2px;
   transition: outline 0.2s;
 }
 
 button:focus, input:focus, textarea:focus, select:focus {
-  outline: 3px solid #ffd600;
+  outline: 3px solid #1a237e;
   outline-offset: 2px;
 }
 

@@ -23,7 +23,6 @@ layout: default
   height: 1px;
   overflow: hidden;
   z-index: 1000;
-  background: #ffd600;
   color: #1a237e;
   font-weight: bold;
   padding: 0.5em 1em;
