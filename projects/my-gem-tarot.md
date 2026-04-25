@@ -1,7 +1,7 @@
 ---
 title: My Gem Tarot (iOS App)
 layout: project-page
-role: Programmer
+role: iOS Developer
 dates: May 2021
 stack: Swift 5.3, CoreData, Tarot Meanings REST API
 gallery: |

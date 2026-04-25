@@ -1,7 +1,7 @@
 ---
 title: Accord365 Apprenticeship
 layout: experience-page
-role: Engineering Intern
+role: Blockchain Development Apprentice
 dates: June 2020 - March 2021
 stack: Go (Gin), PostgreSQL, Solidity, JavaScript, jQuery, HTML, CSS, Bootstrap, Truffle-Contracts, Web3.js, OAuth2
 permalink: /experience/internship/

@@ -7,12 +7,12 @@ permalink: /projects/
 <main id="main-content">
   <h1 class="centered-title">Projects</h1>
   <article class="card">
-    <h2><a href="/projects/schedule-hub/">Schedule Hub</a></h2>
-    <p>Full-stack Angular + Spring Boot automated event booking platform with conflict-detection logic and calendar/list views.</p>
-  </article>
-  <article class="card">
     <h2><a href="/projects/online-obi/">Online Obi</a></h2>
     <p>A React, TailwindCSS, Firebase app that performs Obi divination resources</p>
+  </article>
+  <article class="card">
+    <h2><a href="/projects/schedule-hub/">Schedule Hub</a></h2>
+    <p>Full-stack Angular + Spring Boot automated event booking platform with conflict-detection logic and calendar/list views.</p>
   </article>
   <article class="card">
     <h2><a href="/projects/roller-derby-api/">Roller Derby API</a></h2>

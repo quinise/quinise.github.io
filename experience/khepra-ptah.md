@@ -1,8 +1,8 @@
 ---
-title: Khepra Ptah Website (Angular)
+title: Khepra Ptah's Website
 layout: experience-page
 role: Web Developer
-dates: Apr 2023 – Nov 2023
+dates: April 2023 – November 2023
 stack: Angular, TypeScript, Bootstrap, Firebase Hosting
 gallery: |
   <img src="/assets/images/khepra-home.png" alt="Khepra Ptah's home page" class="project-screenshot">

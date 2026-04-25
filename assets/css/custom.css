@@ -225,6 +225,8 @@ figcaption {
   font-size: 1rem;
   box-sizing: border-box;
   flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-icon {

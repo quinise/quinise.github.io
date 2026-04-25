@@ -1,7 +1,7 @@
 ---
 title: Combust App (Sports Team Administrative Task Automation)
 layout: experience-page
-role: Developer / Architect
+role: React Developer / Architect
 dates: March 2026 - Present
 stack: React Native Web, React Web, Vite, Expo, Supabase
 permalink: /experience/combust/
