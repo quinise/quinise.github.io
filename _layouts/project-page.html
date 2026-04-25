@@ -29,11 +29,11 @@
     </p>
   </section>
 
-  {% if page.gallery %}
+  <section class="detail-description">
+    {{ content }}
+  </section>
 
-  {{ content }}
-  
-  <hr class="gallery-separator"/>
+  {% if page.gallery %}
   <section class="detail-gallery">
     <h2>Gallery</h2>
     {{ page.gallery }}
