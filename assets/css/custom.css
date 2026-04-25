@@ -14,6 +14,10 @@ section:nth-of-type(even) {
   background: #f6fdfe;
 }
 
+.bio-content {
+  border-top: 2px solid #1976d2;
+}
+
 .detail-header {
   background: #e3f2fd;
   text-align: center;
@@ -42,7 +46,7 @@ section:nth-of-type(even) {
 
 .detail-gallery img {
   max-width: 100%;
-  margin: 3rem 3rem 3rem 3rem;
+  margin-top: 5rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(26,35,126,0.12);
 }
@@ -197,37 +201,6 @@ a, a:visited, a:active {
   outline: 3px solid #1a237e;
   outline-offset: 2px;
 }
-
-img.project-screenshot {
-  width: 320px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(26,35,126,0.12);
-  margin: 1rem auto;
-  display: block;
-}
-
-.main-content img,
-.main-content video {
-  max-width: 420px;
-  max-height: 260px;
-  width: 100%;
-  height: auto;
-  margin: 1rem auto;
-  display: block;
-}
-
-figure {
-  text-align: center;
-  margin: 1.5rem 0;
-}
-
-figure img {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
 
 figcaption {
   font-size: 0.95rem;
