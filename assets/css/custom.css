@@ -24,7 +24,7 @@ section:nth-of-type(even) {
 .bio-content {
   margin: 0 auto;
   padding: 2rem;
-  border-top: 2px solid #9a998c;
+  border-top: 4px solid #9a998c;
 }
 
 .content-intro {
@@ -267,14 +267,14 @@ figcaption {
   margin-bottom: 0.5em;
 }
   
-  .return-button {
-    background: #d4cdc3;
-    color: #22211f;
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(26,35,126,0.12);
-    padding: 0.3em 0.9em;
-  }
+.return-button {
+  background: #d4cdc3;
+  color: #22211f;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.12);
+  padding: 0.3em 0.9em;
+}
 
 /* Focus styles for all interactive elements except links */
 button, input, textarea, select {
