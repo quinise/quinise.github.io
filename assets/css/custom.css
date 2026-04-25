@@ -1,3 +1,12 @@
+/* Gallery section separator */
+.gallery-separator {
+  border: none;
+  border-bottom: 3px solid #1976d2;
+  width: 120px;
+  margin: 3rem auto 2rem auto;
+  display: block;
+  border-radius: 2px;
+}
 /* Sectioned layout for detail pages (project/experience) */
 section {
   width: 100%;
