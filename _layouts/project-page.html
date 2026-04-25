@@ -21,9 +21,6 @@
   </header>
 
 <main id="main-content" class="main-content" role="main">
-    <section class="detail-description">
-      {{ content }}
-    </section>
   <section class="detail-header">
     <h1>{{ page.title }}</h1>
     <p class="meta">
@@ -33,7 +30,10 @@
   </section>
 
   {% if page.gallery %}
-  <hr class="gallery-separator" />
+
+  {{ content }}
+  
+  <hr class="gallery-separator"/>
   <section class="detail-gallery">
     <h2>Gallery</h2>
     {{ page.gallery }}
