@@ -109,19 +109,20 @@ header.page-header {
 .page-links a:hover, .page-links a:focus {
   background: #bbdefb;
   color: #1a237e !important;
-  text-decoration: none;
+  text-decoration: underline !important;
 }
 
 /* Ensure header nav links match the white text inside Cayman's banner */
 /* Ensure visited links do not change color anywhere */
 a, a:visited, a:active {
   color: inherit !important;
+  text-decoration: underline !important;
 }
 
 .page-header a,
 .page-header a:visited {
   color: #1a237e !important;
-  text-decoration: none;
+  text-decoration: underline !important;
   font-weight: 600;
   outline: none;
   transition: color 0.2s;
@@ -129,7 +130,7 @@ a, a:visited, a:active {
 
 .page-header a:hover,
 .page-header a:focus {
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: #fff !important;
   outline: 3px solid #1a237e;
   outline-offset: 2px;
