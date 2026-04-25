@@ -27,6 +27,10 @@ section:nth-of-type(even) {
   border-top: 2px solid #9a998c;
 }
 
+.content-intro {
+  border-left:#9a998c solid 4px;
+}
+
 .detail-header {
   background: #d5d0cd;
   text-align: center;
@@ -267,6 +271,8 @@ figcaption {
     background: #d4cdc3;
     color: #22211f;
     border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(26,35,126,0.12);
     padding: 0.3em 0.9em;
   }
 
