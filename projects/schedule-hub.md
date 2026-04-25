@@ -4,6 +4,16 @@ layout: project-page
 role: Freelance Full-stack Developer
 dates: March 2025 - September 2025
 stack: Angular, TypeScript, Bootstrap, Spring Boot (Java), PostgreSQL
+gallery: |
+  <img src="/assets/images/schedule-landing.jpg" alt="Schedule Hub app landing page" class="project-screenshot">
+  <figcaption>Schedule Hub app – landing page</figcaption>
+
+  <img src="/assets/images/schedule-calendar.png" alt="Schedule Hub app calendar view" class="project-screenshot">
+  <figcaption>Schedule Hub app calendar view</figcaption>
+
+  <img src="/assets/images/schedule-admin.png" alt="Schedule Hub app admin panel" class="project-screenshot">
+  <figcaption>Schedule Hub app admin listed calendar items view </figcaption>
+
 permalink: /projects/schedule-hub/
 ---
 
@@ -29,23 +39,6 @@ The Schedule Hub is a booking system that integrates a full Angular frontend wit
 
 - **Problem:** Scheduling conflicts with overlapping times.
   **Solution:** Created a custom `ScheduleConflictService` with buffer enforcement rules, validated through both unit and integration tests.
-
-## Screenshots
-
-<figure>
-  <img src="/assets/images/schedule-landing.jpg" alt="Schedule Hub app landing page" class="project-screenshot">
-  <figcaption>Schedule Hub app – landing page</figcaption>
-</figure>
-
-<figure>
-  <img src="/assets/images/schedule-calendar.png" alt="Schedule Hub app calendar view" class="project-screenshot">
-  <figcaption>Schedule Hub app calendar view</figcaption>
-</figure>
-
-<figure>
-  <img src="/assets/images/schedule-admin.png" alt="Schedule Hub app admin panel" class="project-screenshot">
-  <figcaption>Schedule Hub app admin listed calendar items view </figcaption>
-</figure>
 
 ## Project Links
 
