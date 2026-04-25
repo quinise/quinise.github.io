@@ -26,13 +26,13 @@ img[src*="tarot-edit.gif"] {
   box-shadow: none !important;
 }
 
-
 html, body {
   height: 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -43,19 +43,11 @@ body {
   font-size: 1.125rem;
   line-height: 1.7;
 }
+
 .main-content {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-}
-
-body {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: #f6fdfe;
-  height: 100%;
-  color: #222831;
-  font-size: 1.125rem;
-  line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,7 +61,6 @@ h1, h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-
 
 header.page-header {
   display: flex;
@@ -89,6 +80,7 @@ header.page-header {
   margin: 0;
   font-weight: 700;
   letter-spacing: 0.03em;
+
 }
 
 .page-links {
@@ -97,7 +89,9 @@ header.page-header {
   align-items: center;
   margin: 0;
   font-size: 1.1rem;
+
 }
+
 .page-links a {
   color: #1a237e !important;
   text-decoration: underline !important;
@@ -106,6 +100,7 @@ header.page-header {
   border-radius: 4px;
   transition: background 0.2s, color 0.2s;
 }
+
 .page-links a:hover, .page-links a:focus {
   background: #bbdefb;
   color: #1a237e !important;
@@ -135,8 +130,6 @@ a, a:visited, a:active {
   outline: 3px solid #1a237e;
   outline-offset: 2px;
 }
-
-
 
 img.project-screenshot {
   width: 320px;
@@ -175,18 +168,6 @@ figcaption {
   color: #374151;
   margin-top: 0.5rem;
   font-style: italic;
-}
-
-
-
-html, body {
-  height: 100%;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .main-content {
