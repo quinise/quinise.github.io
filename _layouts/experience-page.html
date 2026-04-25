@@ -13,14 +13,43 @@
 <body>
   <header class="page-header" role="banner">
     <h1 class="project-name">{{ site.title }}</h1>
-    <nav class="page-links-nav" style="background:#fff;width:100%;padding:0;">
-      <div class="page-links" style="padding:1.2rem 0 0.5rem 0;">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/experience/' | relative_url }}">Experience</a>
-        <a href="{{ '/projects/' | relative_url }}">Projects</a>
-      </div>
+    <button class="hamburger-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav" style="background:none;border:none;padding:0.5rem 0.5rem 0 0.5rem;display:none;">
+      <img src="/assets/hamburger-menu-icon.png" alt="Menu" style="width:32px;height:32px;">
+    </button>
+    <nav id="main-nav" class="page-links" style="padding:1.2rem 0 0.5rem 0;">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/experience/' | relative_url }}">Experience</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
     </nav>
   </header>
+</main>
+<script>
+// Hamburger menu toggle for mobile
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.querySelector('.hamburger-menu');
+  var nav = document.getElementById('main-nav');
+  if (!hamburger || !nav) return;
+  hamburger.addEventListener('click', function() {
+    var expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
+    nav.style.display = expanded ? 'none' : 'flex';
+  });
+  // Hide nav by default on mobile
+  function handleResize() {
+    if (window.innerWidth <= 600) {
+      hamburger.style.display = 'block';
+      nav.style.display = 'none';
+      hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+      hamburger.style.display = 'none';
+      nav.style.display = 'flex';
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+  }
+  window.addEventListener('resize', handleResize);
+  handleResize();
+});
+</script>
 
 <main id="main-content" class="main-content" role="main">
   <section class="detail-header">

@@ -15,7 +15,10 @@
 <body>
   <header class="page-header" role="banner">
     <span class="project-name">{{ site.title | default: site.github.repository_name }}</span>
-    <nav class="page-links">
+    <button class="hamburger-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav" style="background:none;border:none;padding:0.5rem 0.5rem 0 0.5rem;display:none;">
+      <img src="/assets/hamburger-menu-icon.png" alt="Menu" style="width:32px;height:32px;">
+    </button>
+    <nav id="main-nav" class="page-links">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/experience/' | relative_url }}">Experience</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
@@ -39,3 +42,30 @@
   </footer>
 </body>
 </html>
+<script>
+// Hamburger menu toggle for mobile
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.querySelector('.hamburger-menu');
+  var nav = document.getElementById('main-nav');
+  if (!hamburger || !nav) return;
+  hamburger.addEventListener('click', function() {
+    var expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
+    nav.style.display = expanded ? 'none' : 'flex';
+  });
+  // Hide nav by default on mobile
+  function handleResize() {
+    if (window.innerWidth <= 600) {
+      hamburger.style.display = 'block';
+      nav.style.display = 'none';
+      hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+      hamburger.style.display = 'none';
+      nav.style.display = 'flex';
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+  }
+  window.addEventListener('resize', handleResize);
+  handleResize();
+});
+</script>
