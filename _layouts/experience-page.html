@@ -21,17 +21,39 @@
   </header>
 
 <main id="main-content" class="main-content" role="main">
-  <section>
-    <h1 class="centered-title">{{page.title}}</h1>
-    <article class="card">
-      <p><b>Role:</b> {{page.role}}</p>
-      <p><b>Role Dates:</b> {{page.dates}}</p>
-      <p><b>Stack:</b> {{page.stack}}</p>
-    </article>
-    <section class="card">
-      {{ content }}
-    </section>
+  <section class="detail-header">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      {% if page.role %}{{ page.role }}{% endif %}
+      {% if page.dates %} • {{ page.dates }}{% endif %}
+    </p>
   </section>
+
+  <section class="detail-description">
+    <h2>Description</h2>
+    {{ content }}
+  </section>
+
+  {% if page.gallery %}
+  <section class="detail-gallery">
+    <h2>Gallery</h2>
+    {{ page.gallery }}
+  </section>
+  {% endif %}
+
+  {% if page.links %}
+  <section class="detail-links">
+    <h2>Links</h2>
+    {{ page.links }}
+  </section>
+  {% endif %}
+
+  {% if page.stack %}
+  <section class="detail-tech">
+    <h2>Technologies</h2>
+    <span class="tech-badge">{{ page.stack }}</span>
+  </section>
+  {% endif %}
 
   <footer class="site-footer">
     <span class="site-footer-owner"> Created by {{ site.title }}</span>
