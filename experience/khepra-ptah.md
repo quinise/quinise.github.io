@@ -4,6 +4,9 @@ layout: experience-page
 role: Web Developer
 dates: Apr 2023 – Nov 2023
 stack: Angular, TypeScript, Bootstrap, Firebase Hosting
+gallery: |
+  <img src="/assets/images/khepra-home.png" alt="Khepra Ptah's home page" class="project-screenshot">
+  <figcaption>Site home page</figcaption>
 permalink: /experience/khepra-ptah/
 ---
 
@@ -29,13 +32,6 @@ Built a responsive single-page application for Khepra Ptah, highlighting his Rei
 
 - **Challenge:** Maintaining responsiveness while embedding external media (YouTube and social feeds).  
   **Solution:** Used Bootstrap’s responsive embeds and media queries to preserve layout consistency across devices.
-
-## Screenshots
-
-<figure>
-  <img src="/assets/images/khepra-home.png" alt="Khepra Ptah's home page" class="project-screenshot">
-  <figcaption>Site home page</figcaption>
-</figure>
 
 ## Repo Link
 
