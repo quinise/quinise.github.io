@@ -100,7 +100,7 @@ header.page-header {
 }
 .page-links a {
   color: #1a237e !important;
-  text-decoration: none;
+  text-decoration: underline !important;
   font-weight: 600;
   padding: 0.25em 0.5em;
   border-radius: 4px;
@@ -108,7 +108,7 @@ header.page-header {
 }
 .page-links a:hover, .page-links a:focus {
   background: #bbdefb;
-  color: #0d133d !important;
+  color: #1a237e !important;
   text-decoration: none;
 }
 
@@ -195,7 +195,7 @@ body {
 .site-footer {
   width: 100%;
   margin: 0;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   text-align: center;
   display: block;
   color: #222831;
