@@ -262,6 +262,13 @@ figcaption {
   gap: 0.5em;
   margin-bottom: 0.5em;
 }
+  
+  .return-button {
+    background: #d4cdc3;
+    color: #22211f;
+    border: none;
+    padding: 0.3em 0.9em;
+  }
 
 /* Focus styles for all interactive elements except links */
 button, input, textarea, select {
