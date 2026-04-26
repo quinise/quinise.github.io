@@ -7,7 +7,7 @@ permalink: /experience/
 <main id="main-content">
   <h1 class="centered-title">Experience</h1>
   <article class="card content-intro">
-    <h2><a href="/experience/combust/">ComBust (Sports Team Administration) Application</a></h2>
+    <h2><a href="/experience/combust/">ComBust Application</a></h2>
     <h4 class="content-summary">Team Administrative Task Automation</h4>
     <p>A React Web and React Native + Python app, distributed with Supabase, created to automate a roller derby league's administrative tasks.</p>
   </article>
