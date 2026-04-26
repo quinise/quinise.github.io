@@ -19,13 +19,13 @@ permalink: /projects/schedule-hub/
 
 ## Overview
 
-The Schedule Hub is a booking system that integrates a full Angular frontend with a Spring Boot backend. It enables users to schedule appointments while enforcing conflict detection rules to prevent overlapping or invalid bookings.
+The Schedule Hub is a booking system that integrates an **Angular** frontend with a **Spring Boot (Java)** backend. It enables users to schedule appointments while enforcing conflict detection rules to prevent overlapping or invalid bookings.
 
 ## Highlights
 
-- Built a **full-stack scheduling system** using Angular 19 and Spring Boot.
+- Built a full-stack scheduling platform using **Angular** and **Spring Boot**.
 - Implemented **conflict detection logic** in the backend to enforce buffer rules for appointments and events.
-- Designed Angular components for **calendar view** and **list view**, including admin-only features.
+- Designed Angular components for calendar view and list view, and included admin-only dashboard + features.
 - Created shared filtering and form components to streamline appointment creation and editing.
 
 ## Technical Details

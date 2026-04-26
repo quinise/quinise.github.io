@@ -9,7 +9,7 @@ permalink: /experience/internship/
 
 ## Overview
 
-As an engineering apprentice on the Accord365 project, I headed both backend and frontend development, database design, blockchain integration, and client engagement. I co-facilitated the project’s focus groups, created a wireframe, and worked closely with the stakeholders to refine requirements and validate progress.
+Headed backend architecture in **Go (Gin)** and frontend development in **JavaScript**. The database was designed with **PostgreSQL** and the blockchain integration was implemented using **Web3.js**. I co-facilitated the project’s focus groups, created a wireframe, and worked closely with the stakeholders to refine requirements and validate progress.
 
 ## Highlights
 
@@ -18,14 +18,14 @@ As an engineering apprentice on the Accord365 project, I headed both backend and
   - Created study forms, drafted questions, and took notes.
   - Consulted regularly with the client to review progress and debrief functionality.
 - **Design:**
-  - Created a full wireframe for the project using Sketch.
+  - Created a full wireframe for the project using **Sketch**.
 - **Backend Development:**
-  - Built and updated PostgreSQL and MySQL databases; created models and wrote create/update queries.
-  - Implemented both **Buffalo** (Go frontend) and **Gin** (Go server) frameworks.
-  - Added **OAuth2 authentication with Google** in Gin.
+  - Built and updated **PostgreSQL**, (refactored from a) **MySQL** database; created models and wrote create/update queries.
+  - Implemented **Go (Gin)** server.
+  - Added **OAuth2 authentication** in Gin.
   - Implemented cookies and session handling in Gin.
 - **Frontend Development:**
-  - Built HTML templates for the Go/Gin server with JavaScript, jQuery, and Bootstrap.
+  - Built HTML templates for the Go server with JavaScript, jQuery, and Bootstrap.
   - Validated JavaScript forms using regular expressions.
 - **Blockchain Development:**
   - Developed an **ERC-20/270 token buying site** using Solidity, JSON, and JavaScript.
@@ -46,7 +46,6 @@ As an engineering apprentice on the Accord365 project, I headed both backend and
 
 - Paired with teammates on JavaScript and Go issues.
 - Regularly interfaced with the client, ensuring transparency and alignment.
-- Reached out for support on specific blockers (routing and architecture).
 
 ## Repo Link
 

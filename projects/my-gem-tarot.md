@@ -15,7 +15,7 @@ permalink: /projects/my-gem-tarot/
 
 ## Overview
 
-An original iOS application built in Swift, My Gem Tarot integrates tarot card readings with gem information. The app consumes a REST API for tarot card meanings, persists readings locally, and provides a smooth navigation experience by suit.
+An original iOS application built in **Swift**, My Gem Tarot integrates tarot card readings with gem information. The app consumes a **REST API** for tarot card meanings, persists readings locally, and provides a smooth navigation experience by suit.
 
 ## Highlights
 
@@ -24,7 +24,7 @@ An original iOS application built in Swift, My Gem Tarot integrates tarot card r
 - Created models to structure API data.
 - Implemented **CoreData** to persist readings and support CRUD operations.
 - Developed and styled multiple views; bound data from models using Swift property wrappers.
-- Enabled navigation by tarot card suit and gem association.
+- Enabled navigation by tarot card suit and gemstone association.
 
 ## Technical Details
 

@@ -16,7 +16,7 @@ permalink: /projects/
   </article>
   <article class="card content-intro">
     <h2><a href="/projects/roller-derby-api/">Roller Derby API</a></h2>
-    <p>A REST API with four endpoints (Structure, Official Types, Rules, Officials), built with Node.js + EJS</p>
+    <p>A REST API with four endpoints (Structure, Official Types, Rules, Officials), built with Node + EJS</p>
   </article>
   <article class="card content-intro">
     <h2><a href="/projects/my-gem-tarot/">My Gem Tarot</a></h2>

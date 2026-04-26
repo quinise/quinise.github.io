@@ -1,31 +1,31 @@
 ---
-title: Khepra Ptah's Website
+title: Practitioner Website
 layout: experience-page
 role: Web Developer
 dates: April 2023 – November 2023
 stack: Angular, TypeScript, Bootstrap, Firebase Hosting
 gallery: |
-  <img src="/assets/images/khepra-home.png" alt="Khepra Ptah's home page" class="project-screenshot">
+  <img src="/assets/images/khepra-home.png" alt="Client's site home page" class="project-screenshot">
   <figcaption>Site home page</figcaption>
-permalink: /experience/khepra-ptah/
+permalink: /experience/practitioner-site/
 ---
 
 ## Overview
 
-Built a responsive single-page application for Khepra Ptah, highlighting his Reiki and Ifa services. The site integrates custom graphics, video content, and social media links, providing a central hub for his online presence.
+Built a responsive **Angular** web application for a client, highlighting their provided services. The site integrates custom graphics, video content, and social media links, providing a central hub for his online presence.
 
 ## Highlights
 
-- Developed an **Angular web application** styled with Bootstrap and deployed to Firebase Hosting.
+- Developed an **Angular web application** styled with Bootstrap and deployed to **Firebase Hosting**.
 - Integrated **custom graphics** designed in Sketch, giving the site a unique and professional aesthetic.
-- Embedded Khepra’s **YouTube channel and social media platforms** directly into the site.
+- Embedded the client's **YouTube channel and social media platforms** directly into the site.
 - Delivered a responsive design ensuring smooth display across mobile, tablet, and desktop devices.
 
 ## Technical Details
 
 - **Frontend:** Angular components for sections like services, video embeds, and contact.
 - **Styling:** Bootstrap framework with custom CSS overrides for branding.
-- **Hosting:** Firebase Hosting (initial deployment).
+- **Hosting:** Firebase Hosting.
 - **Performance:** Lazy loading of embedded media for faster first render.
 
 ## Challenges & Solutions

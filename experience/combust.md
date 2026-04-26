@@ -1,7 +1,7 @@
 ---
-title: Combust App (Sports Team Administrative Task Automation)
+title: Combust App
 layout: experience-page
-role: React Developer / Architect
+role: React Developer + Architect
 dates: March 2026 - Present
 stack: React Native Web, React Web, Vite, Expo, Supabase
 permalink: /experience/combust/
@@ -9,15 +9,15 @@ permalink: /experience/combust/
 
 ## Overview
 
-Architected and developed an application to automate and streamline the administrative workload for Rainier Roller Riot. The application is built using React Native (mobile) and React Native Web with shared business logic and separate UIs. The app focuses on saving administrators work hours, user privacy, and accessibility.
+Architected and developed an application to automate and streamline the administrative workload for Rainier Roller Riot. The application is built using **React Native** (mobile) + **React Native Web** and **Python** with shared business logic and separate UIs. The app focuses on saving administrators work hours, user privacy, and accessibility.
 
 ## Highlights
 
 ### Authentication & Backend plan
 
-- Invite-only sign-up flow; username = email or use OAuth provider
-- Integrated Supabase for Auth, database, and storage.
-- Business-logic first approach: role/permission enforcement implemented in TypeScript before backend wiring.
+- Invite-only sign-up flow; username = email or use **OAuth** provider
+- Integrated **Supabase** for Auth, database, and storage.
+- Business-logic first approach: role/permission enforcement implemented in **TypeScript** before backend wiring.
 
 ### Role-based access control
 
@@ -28,20 +28,20 @@ Architected and developed an application to automate and streamline the administ
 ### Notifications & Calendar integration
 
 - Global announcements and notifications driven by calendar events.
-- Planned integration: Google Calendar for events (color-coded) and rendering Discord Scheduled Events into a calendar UI.
-- Call-time computation for events.
+- Planned integration: Google Calendar for events and rendering Discord Scheduled Events into a calendar UI.
+- Call-time computation for events notifications.
 
 ### Testing & CI/CD
 
-- Playwright end-to-end test suite with CI runs on pull requests and main.
-- GitHub Actions used for build/test/deploy workflows.
+- **React Native Testing Library + Jest** test suite with CI runs on pull requests and main.
+- **GitHub Workflow** GitHub Issues integrated with CI/CD and GitHub Actions used for build/test/deploy workflows.
 
 ## Technical Details
 
-- **Frontend:** React Native, React Web, Vite, Expo
-- **Backend** Python
-- **Testing:** React Testing Library, Jest
-- **Accessibility:** Keyboard navigation, focus ring adjustments, color contrast fixes, and mobile dropdown toggle improvements.
+- **Frontend:** React Native, React Native Web, Vite, Expo
+- **Backend** Python backend logic, data modeling, database interaction, email handling, and automated testing in this project
+- **Testing:** React Native Testing Library, Jest, Pytest
+- **Accessibility:** Keyboard navigation, focus ring adjustments, light/dark modes
 
 ## Challenges & Solutions
 

@@ -23,13 +23,13 @@ permalink: /experience/oidsi-pnw/
 
 ## Overview
 
-The OIDSI-PNW site is a single-page application built with Vue and Vite. It was migrated from Firebase Hosting to **AWS S3 + CloudFront**, ensuring global caching and stable SPA routing. The project emphasizes accessibility, performance, and automated testing.
+The OIDSI-PNW site is a web application built with **Vue** and **Vite**. It was migrated from **Firebase Hosting** to **AWS S3 + CloudFront**, ensuring global caching and stable SPA routing. The project emphasizes accessibility, performance, and automated testing.
 
 ## Highlights
 
-- Migrated deployment pipeline to **AWS S3 + CloudFront**, configured SPA routing fallback for deep links.
-- Added **end-to-end testing with Playwright**; current suite passing on main.
-- Customized Bootstrap theme using Sass `@use`, modernizing styles and removing deprecated imports.
+- Migrated deployment pipeline to **AWS S3** + **CloudFront**, configured SPA routing fallback for deep links.
+- Added end-to-end testing with **Playwright**; current suite passing on main.
+- Customized **Bootstrap** theme using **Sass** `@use`, modernizing styles and removing deprecated imports.
 - Fixed mobile navbar accessibility issues and improved ARIA usage for dropdowns.
 
 ## Technical Details
