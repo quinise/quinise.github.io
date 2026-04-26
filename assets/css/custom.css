@@ -1,29 +1,138 @@
-  /* .hamburger-menu {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 1001;
-  } */
+html, body {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f8f4e3;
+  color: #22211f;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  outline: 2px solid #22211f;
+  outline-offset: 2px;
+  transition: outline 0.2s;
+}
+
+button:focus {
+  outline: 3px solid #22211f;
+  outline-offset: 2px;
+}
+
+.return-button {
+  background: #d4cdc3;
+  color: #22211f;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.12);
+  padding: 0.3em 0.9em;
+}
+
+/* Header styles */
+header.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2.5rem;
+  background: rgba(255,255,255,0.97); /* Opaque white background */
+  box-shadow: 0 2px 8px rgba(26,35,126,0.07);
+  color: #22211f;
+  min-height: 64px;
+  z-index: 100;
+  position: relative;
+}
 
 .page-header {
   margin-bottom: 2.5rem;
 }
 
 .page-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  font-size: 1.1rem;
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
   border-bottom: none;
 }
 
 .page-links a {
+  color: #22211f !important;
+  text-decoration: underline !important;
+  font-weight: 600;
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: none !important;
   box-shadow: none !important;
 }
-  
-/* Utility: Center content vertically and horizontally in viewport */
+
+.page-links a:focus, .page-links a:hover, .page-links a:active {
+  background: #d4cdc3;
+  color: #22211f !important;
+  text-decoration: underline !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #22211f;
+}
+
+h1, h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Ensure visited links do not change color anywhere */
+a, a:visited, a:active {
+  color: inherit !important;
+  text-decoration: underline !important;
+}
+
+a:hover, a:focus {
+  color: #d4cdc3 !important;
+  text-decoration: underline !important;
+}
+
+.project-name {
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card style for content blocks */
+.main-content > section, .main-content article, .main-content .card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.08);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 48rem;
+}
+
+/* Utility: Center home page content vertically and horizontally in viewport */
 .center-viewport {
   min-height: 50vh;
   display: flex;
@@ -31,6 +140,13 @@
   justify-content: center;
 }
 
+.bio-content {
+  margin: 0 auto;
+  padding: 2rem;
+  border-top: 4px solid #9a998c;
+}
+
+/* Styles shared by project and experience pages */
 /* Sectioned layout for detail pages (project/experience) */
 section {
   width: 100%;
@@ -47,10 +163,11 @@ section:nth-of-type(even) {
   background: #f6fdfe;
 }
 
-.bio-content {
-  margin: 0 auto;
-  padding: 2rem;
-  border-top: 4px solid #9a998c;
+/* Centered page titles for Projects and Experience */
+.centered-title {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .content-intro {
@@ -94,6 +211,26 @@ section:nth-of-type(even) {
   box-shadow: 0 2px 8px rgba(26,35,126,0.12);
 }
 
+figcaption {
+  font-size: 0.95rem;
+  color: #374151;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Restrict GIF size for My Gem Tarot project */
+img[src*="tarot-findCard.gif"],
+img[src*="tarot-edit.gif"] {
+  max-width: 200px;
+  max-height: 420px;
+  width: auto;
+  height: auto;
+  aspect-ratio: 9/16;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .detail-links a {
   display: inline-block;
   margin-right: 1.5rem;
@@ -119,150 +256,6 @@ section:nth-of-type(even) {
   font-size: 1rem;
 }
 
-/* Restrict GIF size for My Gem Tarot project */
-img[src*="tarot-findCard.gif"],
-img[src*="tarot-edit.gif"] {
-  max-width: 200px;
-  max-height: 420px;
-  width: auto;
-  height: auto;
-  aspect-ratio: 9/16;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Centered page titles for Projects and Experience */
-.centered-title {
-  text-align: center;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
-}
-
-.site-footer, .site-footer span {
-  text-align: center !important;
-}
-
-/* Remove outline/border from .page-links a on hover/focus, keep underline */
-.page-links a:focus, .page-links a:hover, .page-links a:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-html, body {
-  height: 100%;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  min-height: 100vh;
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: #f8f4e3;
-  color: #22211f;
-  font-size: 1.125rem;
-  line-height: 1.7;
-  display: flex;
-  flex-direction: column;
-}
-
-.main-content {
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: #22211f;
-}
-
-h1, h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-header.page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.2rem 2.5rem;
-  background: rgba(255,255,255,0.97); /* Opaque white background */
-  box-shadow: 0 2px 8px rgba(26,35,126,0.07);
-  color: #22211f;
-  min-height: 64px;
-  z-index: 100;
-  position: relative;
-}
-
-.project-name {
-  font-size: 1.6rem;
-  margin: 0;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-}
-
-.page-links {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  margin: 0;
-  font-size: 1.1rem;
-}
-
-.page-links a {
-  color: #22211f !important;
-  text-decoration: underline !important;
-  font-weight: 600;
-  padding: 0.25em 0.5em;
-  border-radius: 4px;
-  transition: background 0.2s, color 0.2s;
-}
-
-.page-links a:hover, .page-links a:focus {
-  background: #d4cdc3;
-  color: #22211f !important;
-  text-decoration: underline !important;
-}
-
-/* Ensure header nav links match the white text inside Cayman's banner */
-/* Ensure visited links do not change color anywhere */
-a, a:visited, a:active {
-  color: inherit !important;
-  text-decoration: underline !important;
-}
-
-.page-header a,
-.page-header a:visited {
-  color: #22211f !important;
-  text-decoration: underline !important;
-  font-weight: 600;
-  outline: none;
-  transition: color 0.2s;
-}
-
-.page-header a:hover,
-.page-header a:focus {
-  text-decoration: underline !important;
-  color: #fff !important;
-  outline: 3px solid #22211f;
-  outline-offset: 2px;
-}
-
-figcaption {
-  font-size: 0.95rem;
-  color: #374151;
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-
-.main-content {
-  flex: 1 0 auto;
-}
-
 .site-footer {
   width: 100%;
   margin: 0;
@@ -275,6 +268,14 @@ figcaption {
   font-size: 1rem;
   box-sizing: border-box;
   flex-shrink: 0;
+}
+
+.footer-icons-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .footer-icon {
@@ -296,61 +297,6 @@ figcaption {
 .footer-icon:hover {
   opacity: 1;
   filter: drop-shadow(0 0 2px rgba(26,35,126,0.3));
-}
-
-.footer-icons-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5em;
-  margin-bottom: 0.5em;
-}
-  
-.return-button {
-  background: #d4cdc3;
-  color: #22211f;
-  border: none;
-  border-radius: 9px;
-  box-shadow: 0 2px 8px rgba(26,35,126,0.12);
-  padding: 0.3em 0.9em;
-}
-
-/* Focus styles for all interactive elements except links */
-button, input, textarea, select {
-  outline: 2px solid #22211f;
-  outline-offset: 2px;
-  transition: outline 0.2s;
-}
-
-button:focus, input:focus, textarea:focus, select:focus {
-  outline: 3px solid #22211f;
-  outline-offset: 2px;
-}
-
-/* Remove outline/border from links on focus/hover, keep underline */
-a:focus, a:active {
-  outline: none;
-  box-shadow: none;
-}
-
-/* Remove underline from all links by default, underline only on hover/focus */
-a, a:visited {
-  text-decoration: none !important;
-}
-
-a:hover, a:focus {
-  color: #d4cdc3 !important;
-  text-decoration: underline !important;
-}
-
-/* Modern card style for content blocks */
-.main-content > section, .main-content article, .main-content .card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(26,35,126,0.08);
-  margin: 2rem auto;
-  padding: 2rem;
-  max-width: 48rem;
 }
 
 @media (max-width: 600px) {
@@ -407,18 +353,17 @@ a:hover, a:focus {
     width: 100%;
     display: block;
     text-align: left;
-  }
-
-  .page-links a {
-    margin-bottom: 0.5rem;
-    width: 100%;
-    display: block;
-    text-align: left;
     padding-bottom: 0.5rem;
     border-bottom: none !important;
     box-shadow: none !important;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.2rem;
+    margin-bottom: 0.7rem;
+    font-size: 1.1em;
+  }
+  
   .main-content > section, .main-content article, .main-content .card, section, article {
     padding: 1rem;
     margin: 1rem 5vw;
@@ -442,14 +387,10 @@ a:hover, a:focus {
     border-radius: 8px;
   }
 
-  .footer-icon {
-    width: 18px !important;
-    height: 18px !important;
-    min-width: 18px !important;
-    min-height: 18px !important;
-    max-width: 18px !important;
-    max-height: 18px !important;
-    margin: 0 0.15em;
+  .detail-tech .tech-badge {
+    font-size: 0.9rem;
+    padding: 0.2em 0.7em;
+    margin: 0.15em 0.2em 0.15em 0;
   }
 
   .footer-icons-row {
@@ -466,17 +407,5 @@ a:hover, a:focus {
     max-width: 18px !important;
     max-height: 18px !important;
     margin: 0 0.15em;
-  }
-
-  .detail-tech .tech-badge {
-    font-size: 0.9rem;
-    padding: 0.2em 0.7em;
-    margin: 0.15em 0.2em 0.15em 0;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.2rem;
-    margin-bottom: 0.7rem;
-    font-size: 1.1em;
   }
 }
