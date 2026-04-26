@@ -58,7 +58,7 @@ header.page-header {
   display: flex;
   gap: 2rem;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
   font-size: 1.1rem;
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
@@ -148,7 +148,7 @@ a:hover, a:focus {
 
 /* Styles shared by project and experience pages */
 /* Sectioned layout for detail pages (project/experience) */
-section {
+/* section {
   width: 100%;
   max-width: 48rem;
   margin: 0 auto 2.5rem auto;
@@ -161,7 +161,7 @@ section {
 
 section:nth-of-type(even) {
   background: #f6fdfe;
-}
+} */
 
 /* Centered page titles for Projects and Experience */
 .centered-title {
