@@ -61,11 +61,10 @@ header.page-header {
   margin: 0;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+  margin-top: 3rem;
   padding-bottom: 0.5rem;
   border-bottom: none;
   margin-left: auto;
-  align-self: center;
-  justify-content: flex-end;
 }
 
 .page-links a {
@@ -345,7 +344,7 @@ img[src*="tarot-edit.gif"] {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;
-    border-bottom: none;
+    border-bottom: #9a998c solid 2px;
     width: 100%;
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
