@@ -27,6 +27,7 @@ jobs:
           destination: ./_site
       - uses: actions/upload-artifact@v7
         with:
+          name: github-pages
           path: ./_site
 
   deploy:
