@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OIDSI-PNW Community Web Home | Quinise Ercolano</title>
+
+  <!-- Custom overrides -->
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <!-- Custom head content for Jekyll site -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<!-- Add additional meta tags or scripts below as needed -->
+
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">Quinise Ercolano</h1>
+    <button class="hamburger-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav" style="background:none;border:none;padding:0.5rem 0.5rem 0 0.5rem;display:none;">
+      <img src="/assets/hamburger-menu-icon.png" alt="Menu" style="width:32px;height:32px;">
+    </button>
+    <nav id="main-nav" class="page-links" style="padding:1.2rem 0 0.5rem 0;">
+      <a href="/">Home</a>
+      <a href="/experience/">Experience</a>
+      <a href="/projects/">Projects</a>
+    </nav>
+  </header>
+</main>
+<script>
+// Hamburger menu toggle for mobile
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.querySelector('.hamburger-menu');
+  var nav = document.getElementById('main-nav');
+  if (!hamburger || !nav) return;
+  hamburger.addEventListener('click', function() {
+    var expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
+    nav.style.display = expanded ? 'none' : 'flex';
+  });
+  // Hide nav by default on mobile
+  function handleResize() {
+    if (window.innerWidth <= 600) {
+      hamburger.style.display = 'block';
+      nav.style.display = 'none';
+      hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+      hamburger.style.display = 'none';
+      nav.style.display = 'flex';
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+  }
+  window.addEventListener('resize', handleResize);
+  handleResize();
+});
+</script>
+
+<main id="main-content" class="main-content" role="main">
+  <section class="detail-header">
+    <h1>OIDSI-PNW Community Web Home</h1>
+    <p class="meta">
+      Web Developer
+       • October 2022 – March 2026
+    </p>
+  </section>
+
+  <section class="detail-description">
+    <h2 id="overview">Overview</h2>
+
+<p>The OIDSI-PNW site is a web application built with <strong>Vue</strong> and <strong>Vite</strong>. It was migrated from <strong>Firebase Hosting</strong> to <strong>AWS S3 + CloudFront</strong>, ensuring global caching and stable SPA routing. The project emphasizes accessibility, performance, and automated testing.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<ul>
+  <li>Migrated deployment pipeline to <strong>AWS S3</strong> + <strong>CloudFront</strong>, configured SPA routing fallback for deep links.</li>
+  <li>Added end-to-end testing with <strong>Playwright</strong>; current suite passing on main.</li>
+  <li>Customized <strong>Bootstrap</strong> theme using <strong>Sass</strong> <code class="language-plaintext highlighter-rouge">@use</code>, modernizing styles and removing deprecated imports.</li>
+  <li>Fixed mobile navbar accessibility issues and improved ARIA usage for dropdowns.</li>
+</ul>
+
+<h2 id="technical-details">Technical Details</h2>
+
+<ul>
+  <li><strong>Frontend:</strong> Vue 3 Composition API, Vue Router, Bootstrap 5 with custom Sass tokens.</li>
+  <li><strong>Testing:</strong> Playwright end-to-end test suite; CI runs on pull requests and main branch.</li>
+  <li><strong>CI/CD:</strong> GitHub Actions builds and deploys to AWS S3, with CloudFront invalidation for cache consistency.</li>
+  <li><strong>Accessibility:</strong> Keyboard navigation, focus ring adjustments, color contrast fixes, and mobile dropdown toggle improvements.</li>
+</ul>
+
+<h2 id="challenges--solutions">Challenges &amp; Solutions</h2>
+
+<ul>
+  <li><strong>Problem:</strong> Direct navigation to routes (e.g. <code class="language-plaintext highlighter-rouge">/about</code>, <code class="language-plaintext highlighter-rouge">/gallery</code>) failed with 403/404 errors on static hosting.
+<strong>Solution:</strong> Implemented SPA fallback (<code class="language-plaintext highlighter-rouge">index.html</code> copied to <code class="language-plaintext highlighter-rouge">404.html</code>) and CloudFront behavior rules.</li>
+</ul>
+
+<h2 id="links">Links</h2>
+
+<ul>
+  <li><a href="https://www.oidsi-pnw.com">Live Site</a></li>
+  <li><a href="https://github.com/quinise/oidis-pnw">Repo</a></li>
+</ul>
+
+  </section>
+
+  
+  <section class="detail-gallery">
+    <h2>Gallery</h2>
+    <img src="/assets/images/oidsi-home.png" alt="OIDSI-PNW site home page" class="project-screenshot">
+<figcaption>OIDSI-PNW organization's home page</figcaption>
+
+<img src="/assets/images/oidsi-contact.png" alt="OIDSI-PNW site contact form" class="project-screenshot">
+<figcaption>Contact OIDSI-PNW with this form</figcaption>
+
+
+<img src="/assets/images/oidsi-tests-passing.png" alt="OIDSI-PNW site Playwright tests passing" class="project-screenshot">
+<figcaption>OIDSI-PNW end-to-end tests passing</figcaption>
+
+<img src="/assets/images/oidsi-test-details.png" alt="OIDSI-PNW site contact form test details passing" class="project-screenshot">
+<figcaption>OIDSI-PNW site contact form test passing details</figcaption>
+
+  </section>
+  
+
+  
+
+  
+  <section class="detail-tech">
+    <h2>Technologies</h2>
+    <span class="tech-badge">Vue, Vite, Bootstrap, TypeScript, Playwright (e2e), GitHub Actions, AWS S3 + CloudFront</span>
+  </section>
+  
+
+  <footer class="site-footer">
+    <span class="site-footer-owner"> Created by Quinise Ercolano</span>
+    <div class="footer-icons-row">
+      <a href="https://www.linkedin.com/in/quinise">
+        <img class="footer-icon" src="/assets/images/linkedin-icon.svg" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/quinise">
+        <img class="footer-icon" src="/assets/images/github-icon.png" alt="GitHub profile">
+      </a>
+    </div>
+  </footer>
+</main>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Combust App | Quinise Ercolano</title>
+
+  <!-- Custom overrides -->
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <!-- Custom head content for Jekyll site -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<!-- Add additional meta tags or scripts below as needed -->
+
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">Quinise Ercolano</h1>
+    <button class="hamburger-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav" style="background:none;border:none;padding:0.5rem 0.5rem 0 0.5rem;display:none;">
+      <img src="/assets/hamburger-menu-icon.png" alt="Menu" style="width:32px;height:32px;">
+    </button>
+    <nav id="main-nav" class="page-links" style="padding:1.2rem 0 0.5rem 0;">
+      <a href="/">Home</a>
+      <a href="/experience/">Experience</a>
+      <a href="/projects/">Projects</a>
+    </nav>
+  </header>
+</main>
+<script>
+// Hamburger menu toggle for mobile
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.querySelector('.hamburger-menu');
+  var nav = document.getElementById('main-nav');
+  if (!hamburger || !nav) return;
+  hamburger.addEventListener('click', function() {
+    var expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
+    nav.style.display = expanded ? 'none' : 'flex';
+  });
+  // Hide nav by default on mobile
+  function handleResize() {
+    if (window.innerWidth <= 600) {
+      hamburger.style.display = 'block';
+      nav.style.display = 'none';
+      hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+      hamburger.style.display = 'none';
+      nav.style.display = 'flex';
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+  }
+  window.addEventListener('resize', handleResize);
+  handleResize();
+});
+</script>
+
+<main id="main-content" class="main-content" role="main">
+  <section class="detail-header">
+    <h1>Combust App</h1>
+    <p class="meta">
+      React Developer + Architect
+       • March 2026 - Present
+    </p>
+  </section>
+
+  <section class="detail-description">
+    <h2 id="overview">Overview</h2>
+
+<p>Architected and developed an application to automate and streamline the administrative workload for Rainier Roller Riot. The application is built using <strong>React Native</strong> (mobile) + <strong>React Native Web</strong> and <strong>Python</strong> with shared business logic and separate UIs. The app focuses on saving administrators work hours, user privacy, and accessibility.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<h3 id="authentication--backend-plan">Authentication &amp; Backend plan</h3>
+
+<ul>
+  <li>Invite-only sign-up flow; username = email or use <strong>OAuth</strong> provider</li>
+  <li>Integrated <strong>Supabase</strong> for Auth, database, and storage.</li>
+  <li>Business-logic first approach: role/permission enforcement implemented in <strong>TypeScript</strong> before backend wiring.</li>
+</ul>
+
+<h3 id="role-based-access-control">Role-based access control</h3>
+
+<ul>
+  <li>Stackable roles (e.g., [‘member’,’coach’,’captain’]) and committee leader flags (isCouncil, per-committee leader designation).</li>
+  <li>Fine-grained visibility rules for sensitive fields (e.g., emergency contact, medical info visible only to practice_lead/coaches/captains).</li>
+  <li>File permissions: only uploader or committee leader may delete files.</li>
+</ul>
+
+<h3 id="notifications--calendar-integration">Notifications &amp; Calendar integration</h3>
+
+<ul>
+  <li>Global announcements and notifications driven by calendar events.</li>
+  <li>Planned integration: Google Calendar for events and rendering Discord Scheduled Events into a calendar UI.</li>
+  <li>Call-time computation for events notifications.</li>
+</ul>
+
+<h3 id="testing--cicd">Testing &amp; CI/CD</h3>
+
+<ul>
+  <li><strong>React Native Testing Library + Jest</strong> test suite with CI runs on pull requests and main.</li>
+  <li><strong>GitHub Workflow</strong> GitHub Issues integrated with CI/CD and GitHub Actions used for build/test/deploy workflows.</li>
+</ul>
+
+<h2 id="technical-details">Technical Details</h2>
+
+<ul>
+  <li><strong>Frontend:</strong> React Native, React Native Web, Vite, Expo</li>
+  <li><strong>Backend</strong> Python backend logic, data modeling, database interaction, email handling, and automated testing in this project</li>
+  <li><strong>Testing:</strong> React Native Testing Library, Jest, Pytest</li>
+  <li><strong>Accessibility:</strong> Keyboard navigation, focus ring adjustments, light/dark modes</li>
+</ul>
+
+<h2 id="challenges--solutions">Challenges &amp; Solutions</h2>
+
+<ul>
+  <li><strong>Problem:</strong> Cross-platform styling differences (web responsive units vs. React Native styling).</li>
+  <li>
+    <p><strong>Solution:</strong> Separated concerns: use StyleSheet for cross-platform component styling and CSS for web-specific responsive units; keep .tsx for logic and .css for web presentation.</p>
+  </li>
+  <li><strong>Problem:</strong> Accessibility and mobile navbar issues.</li>
+  <li>
+    <p><strong>Solution:</strong> Fixed ARIA usage and keyboard/focus behavior for mobile dropdowns and nav components.</p>
+  </li>
+  <li><strong>Problem:</strong> File upload/format/size validation and previewing before download.</li>
+  <li><strong>Solution:</strong> Built validation (allowed formats, size limit default 25MB), title sanitization, file metadata fields, preview UI considerations, and unit tests.</li>
+</ul>
+
+  </section>
+
+  
+
+  
+
+  
+  <section class="detail-tech">
+    <h2>Technologies</h2>
+    <span class="tech-badge">React Native Web, React Web, Vite, Expo, Supabase</span>
+  </section>
+  
+
+  <footer class="site-footer">
+    <span class="site-footer-owner"> Created by Quinise Ercolano</span>
+    <div class="footer-icons-row">
+      <a href="https://www.linkedin.com/in/quinise">
+        <img class="footer-icon" src="/assets/images/linkedin-icon.svg" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/quinise">
+        <img class="footer-icon" src="/assets/images/github-icon.png" alt="GitHub profile">
+      </a>
+    </div>
+  </footer>
+</main>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Accord365 Apprenticeship | Quinise Ercolano</title>
+
+  <!-- Custom overrides -->
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <!-- Custom head content for Jekyll site -->
+<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<!-- Add additional meta tags or scripts below as needed -->
+
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">Quinise Ercolano</h1>
+    <button class="hamburger-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav" style="background:none;border:none;padding:0.5rem 0.5rem 0 0.5rem;display:none;">
+      <img src="/assets/hamburger-menu-icon.png" alt="Menu" style="width:32px;height:32px;">
+    </button>
+    <nav id="main-nav" class="page-links" style="padding:1.2rem 0 0.5rem 0;">
+      <a href="/">Home</a>
+      <a href="/experience/">Experience</a>
+      <a href="/projects/">Projects</a>
+    </nav>
+  </header>
+</main>
+<script>
+// Hamburger menu toggle for mobile
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.querySelector('.hamburger-menu');
+  var nav = document.getElementById('main-nav');
+  if (!hamburger || !nav) return;
+  hamburger.addEventListener('click', function() {
+    var expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
+    nav.style.display = expanded ? 'none' : 'flex';
+  });
+  // Hide nav by default on mobile
+  function handleResize() {
+    if (window.innerWidth <= 600) {
+      hamburger.style.display = 'block';
+      nav.style.display = 'none';
+      hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+      hamburger.style.display = 'none';
+      nav.style.display = 'flex';
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+  }
+  window.addEventListener('resize', handleResize);
+  handleResize();
+});
+</script>
+
+<main id="main-content" class="main-content" role="main">
+  <section class="detail-header">
+    <h1>Accord365 Apprenticeship</h1>
+    <p class="meta">
+      Blockchain Development Apprentice
+       • June 2020 - March 2021
+    </p>
+  </section>
+
+  <section class="detail-description">
+    <h2 id="overview">Overview</h2>
+
+<p>Headed backend architecture in <strong>Go (Gin)</strong> and frontend development in <strong>JavaScript</strong>. The database was designed with <strong>PostgreSQL</strong> and the blockchain integration was implemented using <strong>Web3.js</strong>. I co-facilitated the project’s focus groups, created a wireframe, and worked closely with the stakeholders to refine requirements and validate progress.</p>
+
+<h2 id="highlights">Highlights</h2>
+
+<ul>
+  <li><strong>Client Collaboration:</strong>
+    <ul>
+      <li>Co-facilitated a two-part focus group with the client.</li>
+      <li>Created study forms, drafted questions, and took notes.</li>
+      <li>Consulted regularly with the client to review progress and debrief functionality.</li>
+    </ul>
+  </li>
+  <li><strong>Design:</strong>
+    <ul>
+      <li>Created a full wireframe for the project using <strong>Sketch</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Backend Development:</strong>
+    <ul>
+      <li>Built and updated <strong>PostgreSQL</strong>, (refactored from a) <strong>MySQL</strong> database; created models and wrote create/update queries.</li>
+      <li>Implemented <strong>Go (Gin)</strong> server.</li>
+      <li>Added <strong>OAuth2 authentication</strong> in Gin.</li>
+      <li>Implemented cookies and session handling in Gin.</li>
+    </ul>
+  </li>
+  <li><strong>Frontend Development:</strong>
+    <ul>
+      <li>Built HTML templates for the Go server with JavaScript, jQuery, and Bootstrap.</li>
+      <li>Validated JavaScript forms using regular expressions.</li>
+    </ul>
+  </li>
+  <li><strong>Blockchain Development:</strong>
+    <ul>
+      <li>Developed an <strong>ERC-20/270 token buying site</strong> using Solidity, JSON, and JavaScript.</li>
+      <li>Integrated <strong>Web3.js</strong> API calls for blockchain contract and transaction interactions.</li>
+      <li>Used <strong>Truffle-Contracts</strong> for contract management.</li>
+      <li>Created a wallet that users could load with Ether.</li>
+    </ul>
+  </li>
+  <li><strong>Testing:</strong>
+    <ul>
+      <li>Tested blockchain interactions with <strong>Ganache, Metamask, Geth</strong>, and the Ethereum test networks <strong>Rinkeby and Robsten</strong>.</li>
+      <li>Verified form handling and wallet transactions.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="challenges--solutions">Challenges &amp; Solutions</h2>
+
+<ul>
+  <li><strong>Routing problem in Go frameworks:</strong> Reached out to peers and mentors for help and improved debugging approach.</li>
+  <li><strong>Complexity of blockchain tooling:</strong> Leveraged test networks and local tools (Ganache, Metamask) to validate transactions without risk.</li>
+  <li><strong>Collaboration hurdles:</strong> Coordinated with teammates on JavaScript and Go issues, and created internal documentation (e.g., <em>Accord365 Mobile Todo</em> doc) to improve organization.</li>
+</ul>
+
+<h2 id="collaboration">Collaboration</h2>
+
+<ul>
+  <li>Paired with teammates on JavaScript and Go issues.</li>
+  <li>Regularly interfaced with the client, ensuring transparency and alignment.</li>
+</ul>
+
+<h2 id="repo-link">Repo Link</h2>
+
+<ul>
+  <li><a href="https://github.com/quinise/Accord365_gin_development">Repo</a></li>
+</ul>
+
+  </section>
+
+  
+
+  
+
+  
+  <section class="detail-tech">
+    <h2>Technologies</h2>
+    <span class="tech-badge">Go (Gin), PostgreSQL, Solidity, JavaScript, jQuery, HTML, CSS, Bootstrap, Truffle-Contracts, Web3.js, OAuth2</span>
+  </section>
+  
+
+  <footer class="site-footer">
+    <span class="site-footer-owner"> Created by Quinise Ercolano</span>
+    <div class="footer-icons-row">
+      <a href="https://www.linkedin.com/in/quinise">
+        <img class="footer-icon" src="/assets/images/linkedin-icon.svg" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/quinise">
+        <img class="footer-icon" src="/assets/images/github-icon.png" alt="GitHub profile">
+      </a>
+    </div>
+  </footer>
+</main>
