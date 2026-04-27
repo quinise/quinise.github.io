@@ -19,8 +19,8 @@ body {
 .return-button {
   background: #e7dac7;
   color: #22211f;
-  text-decoration: none;
   border: none;
+  border-radius: 8px;
   box-shadow: 0 4px 16px rgba(26,35,126,0.10), 0 1.5px 4px rgba(0,0,0,0.04);
   padding: 0.5em 1.5em;
   font-size: 1.08em;
@@ -32,6 +32,8 @@ body {
 
 .return-button:hover, .return-button:focus {
   background: #e7dac7;
+  text-decoration: underline;
+  border-radius: 8px;
   box-shadow: 0 6px 20px rgba(26,35,126,0.16), 0 2px 8px rgba(0,0,0,0.08);
   transform: translateY(-2px) scale(1.03);
   outline: none;
