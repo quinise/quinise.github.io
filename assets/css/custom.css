@@ -146,24 +146,7 @@ a:hover, a:focus {
   border-top: 4px solid #9a998c;
 }
 
-/* Styles shared by project and experience pages */
-/* Sectioned layout for detail pages (project/experience) */
-/* section {
-  width: 100%;
-  max-width: 48rem;
-  margin: 0 auto 2.5rem auto;
-  padding: 2.5rem 2rem;
-  background: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  border-bottom: 1px solid #e3e8ee;
-}
-
-section:nth-of-type(even) {
-  background: #f6fdfe;
-} */
-
-/* Centered page titles for Projects and Experience */
+/* Shared styling for project and experience pages */
 .centered-title {
   text-align: center;
   margin-top: 2.5rem;
@@ -178,13 +161,36 @@ section:nth-of-type(even) {
   color:#22211f
 }
 
+.detail-header,
+.detail-tech,
+.detail-description,
+.detail-gallery {
+  background: #fff;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.08);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 48rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .detail-header {
   background: #d5d0cd;
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  border-radius: 0 0 12px 12px;
   border-bottom: 2px solid #9a998c;
+  border-radius: 0 0 12px 12px;
+}
+
+.detail-gallery {
+  text-align: center;
+}
+
+.detail-tech {
+  background: #fff;
+  border-top: 2px solid #9a998c;
 }
 
 .detail-header h1 {
@@ -373,10 +379,14 @@ img[src*="tarot-edit.gif"] {
     border-radius: 12px;
   }
 
-  .detail-header, .detail-gallery {
+  .detail-header, .detail-gallery, .detail-tech, .detail-description {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     border-radius: 0;
+    margin: 1rem 5vw;
+    max-width: 90vw;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .detail-gallery img, .main-content img, .main-content video, figure img {
