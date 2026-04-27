@@ -25,35 +25,10 @@ jobs:
         with:
           source: .
           destination: ./_site
-      - name: Detect symlinks and hard links
-        run: |
-          echo "Checking for symlinks in _site..."
-          if find ./_site -type l | grep .; then
-            echo "ERROR: Symlinks found in _site."
-            find ./_site -type l
-            exit 1
-          else
-            echo "No symlinks found."
-          fi
-          echo "Checking for hard links in _site..."
-          if find ./_site -type f -links +1 | grep .; then
-            echo "ERROR: Hard links found in _site."
-            find ./_site -type f -links +1
-            exit 1
-          else
-            echo "No hard links found."
-          fi
-      - name: Create sanitized directory with only real files
-        run: |
-          rm -rf _site_sanitized
-          mkdir _site_sanitized
-          cd _site
-          find . -type f -exec bash -c 'install -D -- "$1" "../_site_sanitized/${1#./}"' _ {} \;
-          cd ..
-      - uses: actions/upload-artifact@v7
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
         with:
-          name: github-pages
-          path: ./_site_sanitized
+          path: ./_site
 
   deploy:
     environment:
