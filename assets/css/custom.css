@@ -58,11 +58,8 @@ header.page-header {
   display: flex;
   gap: 2rem;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
   font-size: 1.1rem;
-  margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: none;
 }
 
 .page-links a {
@@ -72,9 +69,6 @@ header.page-header {
   padding: 0.25em 0.5em;
   border-radius: 4px;
   transition: background 0.2s, color 0.2s;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: none !important;
   box-shadow: none !important;
 }
 
